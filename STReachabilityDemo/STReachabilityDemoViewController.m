@@ -189,7 +189,7 @@ static NSString *NSStringFromSTReachabilityStatus(enum STReachabilityStatus stat
 
 	NSCAssert(0, @"unreachable", nil);
 
-	return [NSString stringWithFormat:@"Unknown STReachabilityStatus: %d", status];
+	return [NSString stringWithFormat:@"Unknown STReachabilityStatus: %ld", (long)status];
 }
 
 static UIView *UIViewFindFirstResponder(UIView *view) {
