@@ -8,7 +8,7 @@
 #
 Pod::Spec.new do |s|
   s.name         = "STReachability"
-  s.version      = "0.0.2"
+  s.version      = "0.0.3"
   s.summary      = "An SCNetworkReachability wrapper with an obscenely simple API."
   # s.description  = <<-DESC
   #                   An optional longer description of STReachability
@@ -29,7 +29,7 @@ Pod::Spec.new do |s|
 
   # Specify the location from where the source should be retrieved.
   #
-  s.source       = { :git => 'https://github.com/komoot/STReachability.git' , :commit => '537321404b656a24d0a7ef6bfaa1ce8be346e390' }
+  s.source       = { :git => 'https://github.com/komoot/STReachability.git' , :tag => s.version.to_s }
 
   # If this Pod runs only on iOS or OS X, then specify the platform and
   # the deployment target.
