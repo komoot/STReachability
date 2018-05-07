@@ -12,7 +12,7 @@
 #import <Foundation/Foundation.h>
 
 
-NS_ENUM(NSInteger, STReachabilityStatus) {
+typedef NS_ENUM(NSInteger, STReachabilityStatus) {
 	STReachabilityStatusUnknown = -1,
 	STReachabilityStatusUnreachable = 0,
 	STReachabilityStatusReachableViaWifi = 1,
